@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +9,9 @@
 font-family: 'Roboto', sans-serif;
  }
  body header h1{
+   display: flex;
+   position: relative;
+   justify-content: center;
     background-color: white;
     color: black;
     align-items: center;
@@ -17,4 +20,112 @@ font-family: 'Roboto', sans-serif;
     align-items: baseline;
    
  }
+ .user{
+   
+   padding: ;
+   
+   color: white;
+   background: red;
+   width: 40px;
+   height: 25px;
+   border-radius: 5px;
+   text-align: center;
+   margin-left: 100px;
+ }
+
+ .computer{
+ padding: ;
+   
+   color: rgb(242, 238, 238);
+   background: red;
+   width: 40px;
+   height: 25px;
+   border-radius: 5px;
+   text-align: center;
+   margin-left: 100px;
+ }
+ div.rps div.user,computer{
+   border-color: aqua;
+   border: 20px;
+
+ }
+ .h1{
+   color: white;
+   text-align: center;
+   margin-top: 100;
+ }
+ .image1{
+   background-color: black;
+   border: 100px;
+   width: 100px;
+ } */
+  *{
+   
+   box-sizing: border-box;
+}
+ body{
+   background-color: rgb(32,32,32);
+   font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+   background-color: white;
+   background: white;
+   text-align: center;
+position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+div.container {
+  padding: 10px;
+background-color: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+   div.user{
+    
+    
+    background-color: red;
+    border-radius: 5px;
+    
+   }
  
+   div.comp{
+    background-color: red;
+    border-radius: 5px;
+   }
+   div.time{
+    border-width:3px;
+     border-style: solid;
+     border-color:#ffffff;
+     border-radius: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 50px;
+    color: white;
+   }
+ 
+ div.info{
+   color: white;
+   font-weight: 100;
+   text-align: center;
+ }
+   
+ .image1{
+margin-left: 10;
+ width: 10%;
+  
+ }
+ .image2{
+  width: 10%;
+   
+  }
+  .image3{
+    width: 10%;
+     
+    }
+    
+    
